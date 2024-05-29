@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/7191124665.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>HTML Imae, Audio, Video</h1>
+    <div class="media-player">
+      <div class="audio-album-picture">
+        <img src="./assets/random_PC.jpg" alt="a gaming pc" />
+      </div>
+      <div class="audio-info">
+        <div class="audio-title"><h1>Bumblebee</h1></div>
+        <div class="audio-artist"><h2>BBC</h2></div>
+      </div>
+      <div class="buttons-style">
+        <button id="play-button"><i class="fa-solid fa-play"></i></button>
+        <button id="pause-button"><i class="fa-solid fa-pause"></i></button>
+        <button id="stop-button"><i class="fa-solid fa-stop"></i></button>
+        <button id="back-button"><i class="fa-duotone fa-backward"></i></button>
+        <button id="skip-button"><i class="fa-duotone fa-forward"></i></button>
+      </div>
+    </div>
+    <img src="./assets/random_PC.jpg" alt="a gaming pc" />
+    <audio
+      src="./assets/bbc_honey-bee-_nhu0502710.mp3"
+      id="bumblebee-audio"
+      controls
+    ></audio>
+    <video src="./assets/2887463-hd_1920_1080_25fps.mp4"></video>
+    <!-- addd a video from youtube -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/3JZ_D3ELwOQ"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </body>
+  <script src="./script.js"></script>
+</html>
